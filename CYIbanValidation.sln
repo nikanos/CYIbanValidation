@@ -1,0 +1,46 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30413.136
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CYIbanValidaitonLib", "CYIbanValidaitonLib\CYIbanValidaitonLib.csproj", "{44F1D219-0E83-4E9D-868E-A1BCE8189C1B}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CYIbanValidaitonLib.Tests", "CYIbanValidaitonLib.Tests\CYIbanValidaitonLib.Tests.csproj", "{6B26FC9E-AF83-454B-A0C4-6E9FE9FF8E54}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CYIbanValidation.Api", "CYIbanValidation.Api\CYIbanValidation.Api.csproj", "{C125C663-C44A-401B-BC8B-7B521BB3A85D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Documents", "Documents", "{57F884B8-0FA7-47FC-8325-8D0F72D89B53}"
+	ProjectSection(SolutionItems) = preProject
+		Documents\CY IBAN Handbook_en.pdf = Documents\CY IBAN Handbook_en.pdf
+		Documents\CY IBAN Handbook_gr.pdf = Documents\CY IBAN Handbook_gr.pdf
+		Documents\IBAN Registry.pdf = Documents\IBAN Registry.pdf
+		Documents\IBAN Verification.mht = Documents\IBAN Verification.mht
+		Documents\IBAN Verification.pdf = Documents\IBAN Verification.pdf
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{44F1D219-0E83-4E9D-868E-A1BCE8189C1B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{44F1D219-0E83-4E9D-868E-A1BCE8189C1B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{44F1D219-0E83-4E9D-868E-A1BCE8189C1B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{44F1D219-0E83-4E9D-868E-A1BCE8189C1B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6B26FC9E-AF83-454B-A0C4-6E9FE9FF8E54}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6B26FC9E-AF83-454B-A0C4-6E9FE9FF8E54}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6B26FC9E-AF83-454B-A0C4-6E9FE9FF8E54}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6B26FC9E-AF83-454B-A0C4-6E9FE9FF8E54}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C125C663-C44A-401B-BC8B-7B521BB3A85D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C125C663-C44A-401B-BC8B-7B521BB3A85D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C125C663-C44A-401B-BC8B-7B521BB3A85D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C125C663-C44A-401B-BC8B-7B521BB3A85D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {9F3E678E-5B3A-409C-B023-0B46BE2FB662}
+	EndGlobalSection
+EndGlobal
