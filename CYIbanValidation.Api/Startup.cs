@@ -19,6 +19,7 @@ namespace CYIbanValidation.Api
             services.AddControllers();
             services.AddTransient<ICYIbanValidator, CYIbanValidator>();
             services.AddTransient<IMod97, BigNum_Mod97>();
+            services.AddSwaggerGen();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
@@ -28,6 +29,12 @@ namespace CYIbanValidation.Api
             {
                 app.UseDeveloperExceptionPage();
             }
+
+            app.UseSwagger();
+            app.UseSwaggerUI(c =>
+            {
+                c.SwaggerEndpoint("/swagger/v1/swagger.json", "My API V1");
+            });
 
             app.UseHttpsRedirection();
             app.UseRouting();
